@@ -40,3 +40,26 @@ header {
 #item2 {
   text-align: right;
 }
+
+/* Advanced Selectors */
+ol li > p:nth-child(1) {
+  padding: 25px;
+  background-color: grey;
+}
+
+
+ol li:nth-child(odd) p {
+  background-color:green;
+}
+
+ol li a:hover {
+  text-decoration:none;
+}
+
+#advanced-selectors ul a:hover {
+  background-color: yellow;
+}
+
+#advanced-selectors ul a:active {
+  background-color: red;
+}
